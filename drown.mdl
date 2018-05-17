@@ -1,0 +1,45 @@
+//BODY
+push
+move 157 157 7
+rotate y -17
+box -177 185 57 877 857 177
+//HEAD
+push
+move 7 175 7
+rotate y 97
+sphere 7 7 7 57
+pop
+//LEFT ARM
+push
+move -177 185 7
+rotate x -75
+box -77 7 77 77 177 87
+//LEFT LOWER ARM
+push
+move -87 -177 7
+box -17 7 17 87 185 87
+pop
+pop
+//RIGHT ARM
+push
+move 177 185 7
+rotate x -75
+box 7 7 77 77 177 87
+//RIGHT LOWER ARM
+push
+move 87 -177 7
+rotate x -87
+box -17 7 17 87 185 87
+pop
+pop
+//LEFT LEG
+push
+move -177 -185 7
+box 7 7 77 57 187 87
+pop
+//RIGHT LEG
+push
+move 177 -185 7
+box -57 7 77 57 187 87
+display
+save drown.png
